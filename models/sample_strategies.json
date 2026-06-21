@@ -1,0 +1,40 @@
+{
+  "high_risk_strategy": {
+    "urgency_level": "HIGH",
+    "primary_action": "Personalized call to discuss concerns and offer",
+    "offer": "15% discount on monthly charges for the next 6 months",
+    "talking_points": [
+      "We understand you're on a month-to-month contract and may be considering other options due to recent charge increases",
+      "Our fiber optic internet service provides the fastest and most reliable connection, which is especially important for seniors who may rely on it for critical services",
+      "We're willing to offer a 15% discount on your monthly charges for the next 6 months to demonstrate our commitment to your satisfaction"
+    ],
+    "channel": "Call",
+    "best_time_to_contact": "Morning",
+    "estimated_retention_probability": 0.6,
+    "estimated_revenue_saved": 684,
+    "action_deadline_days": 3,
+    "reasoning": "Given the high churn probability and short tenure, a personalized call with a specific offer addressing the customer's concerns is crucial to retain them, especially considering their senior status and potential reliance on our services",
+    "annual_revenue_at_risk": 1141.2,
+    "churn_probability": 0.9369999766349792,
+    "monthly_charges": 95.1
+  },
+  "medium_risk_strategy": {
+    "urgency_level": "MEDIUM",
+    "primary_action": "Offer a contract upgrade with a promotional discount",
+    "offer": "15% discount on monthly charges for 12 months with a 1-year contract",
+    "talking_points": [
+      "We've noticed you're on a month-to-month contract and want to ensure you have the best options available, considering your 4-month tenure with us",
+      "You're already benefiting from our Online Security feature, which provides an additional layer of protection for your internet activities",
+      "By signing a 1-year contract, you'll not only get a 15% discount on your monthly charges but also have the assurance of a stable and secure internet connection"
+    ],
+    "channel": "Call",
+    "best_time_to_contact": "Afternoon",
+    "estimated_retention_probability": 0.65,
+    "estimated_revenue_saved": 448,
+    "action_deadline_days": 14,
+    "reasoning": "The customer's high churn probability due to contract type and short tenure suggests a need for a more stable and cost-effective solution, which a promotional contract offer can provide, while also addressing the lack of tech support by highlighting the value of existing services like Online Security",
+    "annual_revenue_at_risk": 686.4,
+    "churn_probability": 0.5422000288963318,
+    "monthly_charges": 57.2
+  }
+}

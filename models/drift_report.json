@@ -1,0 +1,242 @@
+{
+  "drift_detected": false,
+  "drift_score": 0.0,
+  "drifted_features_count": 0,
+  "total_features_tested": 29,
+  "drifted_features": [],
+  "feature_details": {
+    "gender": {
+      "ks_statistic": 0.0085,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": 0.02,
+      "mean_change_pct": -1057.6
+    },
+    "SeniorCitizen": {
+      "ks_statistic": 0.0049,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": -0.01,
+      "mean_change_pct": -1371.7
+    },
+    "Partner": {
+      "ks_statistic": 0.0046,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": -0.01,
+      "mean_change_pct": 586.6
+    },
+    "Dependents": {
+      "ks_statistic": 0.0079,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": 0.01,
+      "mean_change_pct": -505.0
+    },
+    "tenure": {
+      "ks_statistic": 0.0206,
+      "p_value": 0.7331,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": -0.02,
+      "mean_change_pct": -368561.9
+    },
+    "PhoneService": {
+      "ks_statistic": 0.0154,
+      "p_value": 0.954,
+      "drift_detected": false,
+      "reference_mean": -0.02,
+      "current_mean": 0.03,
+      "mean_change_pct": -263.8
+    },
+    "MultipleLines": {
+      "ks_statistic": 0.0222,
+      "p_value": 0.6446,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": -0.03,
+      "mean_change_pct": -6389.5
+    },
+    "InternetService": {
+      "ks_statistic": 0.0046,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": 0.01,
+      "mean_change_pct": -631.6
+    },
+    "OnlineSecurity": {
+      "ks_statistic": 0.007,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": -0.01,
+      "mean_change_pct": -311.6
+    },
+    "OnlineBackup": {
+      "ks_statistic": 0.0313,
+      "p_value": 0.2275,
+      "drift_detected": false,
+      "reference_mean": 0.02,
+      "current_mean": -0.05,
+      "mean_change_pct": -438.9
+    },
+    "DeviceProtection": {
+      "ks_statistic": 0.0081,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": -0.01,
+      "mean_change_pct": -818.2
+    },
+    "TechSupport": {
+      "ks_statistic": 0.0116,
+      "p_value": 0.9981,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": -0.02,
+      "mean_change_pct": -508.7
+    },
+    "StreamingTV": {
+      "ks_statistic": 0.0269,
+      "p_value": 0.3994,
+      "drift_detected": false,
+      "reference_mean": 0.02,
+      "current_mean": -0.04,
+      "mean_change_pct": -366.8
+    },
+    "StreamingMovies": {
+      "ks_statistic": 0.0153,
+      "p_value": 0.9553,
+      "drift_detected": false,
+      "reference_mean": 0.01,
+      "current_mean": -0.02,
+      "mean_change_pct": -441.5
+    },
+    "Contract": {
+      "ks_statistic": 0.0026,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": -0.0,
+      "mean_change_pct": -75.2
+    },
+    "PaperlessBilling": {
+      "ks_statistic": 0.0011,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": 0.01,
+      "current_mean": 0.01,
+      "mean_change_pct": 39.5
+    },
+    "PaymentMethod": {
+      "ks_statistic": 0.0092,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": 0.01,
+      "mean_change_pct": -845.6
+    },
+    "MonthlyCharges": {
+      "ks_statistic": 0.0298,
+      "p_value": 0.2776,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": -0.02,
+      "mean_change_pct": 4976.3
+    },
+    "TotalCharges": {
+      "ks_statistic": 0.0291,
+      "p_value": 0.3057,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": -0.03,
+      "mean_change_pct": -816.6
+    },
+    "annual_revenue": {
+      "ks_statistic": 0.0298,
+      "p_value": 0.2776,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": -0.02,
+      "mean_change_pct": 4976.3
+    },
+    "avg_monthly_spend": {
+      "ks_statistic": 0.0273,
+      "p_value": 0.3813,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": -0.03,
+      "mean_change_pct": 3559.4
+    },
+    "charge_increase_rate": {
+      "ks_statistic": 0.0232,
+      "p_value": 0.5894,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": 0.02,
+      "mean_change_pct": 741.1
+    },
+    "service_count": {
+      "ks_statistic": 0.0231,
+      "p_value": 0.5922,
+      "drift_detected": false,
+      "reference_mean": 0.01,
+      "current_mean": -0.04,
+      "mean_change_pct": -818.3
+    },
+    "engagement_score": {
+      "ks_statistic": 0.0231,
+      "p_value": 0.5922,
+      "drift_detected": false,
+      "reference_mean": 0.01,
+      "current_mean": -0.04,
+      "mean_change_pct": -818.3
+    },
+    "is_month_to_month": {
+      "ks_statistic": 0.0026,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": -0.0,
+      "mean_change_pct": -252.1
+    },
+    "auto_payment": {
+      "ks_statistic": 0.0021,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": -0.01,
+      "mean_change_pct": 224.1
+    },
+    "tenure_segment": {
+      "ks_statistic": 0.0091,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": 0.0,
+      "current_mean": 0.01,
+      "mean_change_pct": 298.2
+    },
+    "has_internet": {
+      "ks_statistic": 0.0046,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": -0.01,
+      "mean_change_pct": 2161.8
+    },
+    "senior_no_support": {
+      "ks_statistic": 0.0019,
+      "p_value": 1.0,
+      "drift_detected": false,
+      "reference_mean": -0.0,
+      "current_mean": -0.01,
+      "mean_change_pct": 190.7
+    }
+  },
+  "alert_level": "OK - No drift detected"
+}
