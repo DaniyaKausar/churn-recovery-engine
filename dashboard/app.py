@@ -85,8 +85,13 @@ st.markdown(
 )
 
 # API URL
-API_URL = "http://localhost:8000"
+import os
 
+# Use production URL if deployed, otherwise localhost for testing
+API_URL = os.environ.get(
+    "API_URL", 
+    "https://churn-recovery-engine-production.up.railway.app"
+)
 # ==========================================
 # Sidebar — Customer Input Form
 # ==========================================
